@@ -7,8 +7,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>1Volunteer</title>
-
+    <title>1Volunteer Event</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
@@ -30,7 +32,7 @@
                             <a href="#">
                                 <div class="main-logo">
                                     <img src="images/logo.png" alt="">
-                                  
+
                                 </div>
                             </a>
                         </div>
@@ -38,10 +40,12 @@
                             <div class="menu">
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="#">Home</a></li>
-                                    <li><a href="#">Donations</a></li>
+                                    <li><a href="donate.jsp">Donations</a></li>
                                     <li><a href="clientEvent.jsp">Events</a></li>
-                                    <li><a href="#">Forums </a></li>
+                                    <li><a href="#">Forums</a></li>
                                     <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#"><i class="lni lni-menu">
+                                    </i><img src="images/user2.png"/></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,56 +53,14 @@
                 </div>
             </section>
         </header>
-               <section class="letast_news">
-            <h2>Donate Now!</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single_news">
-                            <img src="images/flood.png" alt="">
-                            <div class="texts">
-                                <p>26 December, 2022</p>
-                                <h4>Flood in Kedah <br></h4>
-                                <p class="test">Kedah community needs your help for crisis management from 3 days of non-stop flooding. </p>
-                                <section class="donate_section">
-                        		<h2><a href="#">Donate Now</a></h2>
-        						</section>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single_news">
-                            <img src="images/hurricane.png" alt="">
-                            <div class="texts">
-                                <p>27 November, 2022</p>
-                                <h4>Melaka Hurricane</h4>
-                                <p class="test">The hurricane just hit Melaka and all the people have lost their home and resources.</p>
-                                
-                                <section class="donate_section">
-                        		<h2><a href="donation2.jsp">Donate Now</a></h2>
-        						</section>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single_news">
-                            <img src="images/landslide.jpeg" alt="">
-                            <div class="texts">
-                                <p>30 October, 2022</a></p>
-                                <h4>Landslide at Genting Highland<br></h4>
-                                <p class="test">A landslide has shaken Genting Highland, help them recover with food and medicine.</p>
 
-                                <section class="donate_section">
-                        		<h2><a href="#">Donate Now</a></h2>
-        						</section>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-      
-       
+
+<br><br>
+
+
+
+
+
         <section class="footer_carosal">
             <div class="container">
                 <div class="row">
@@ -167,9 +129,9 @@
                                 <div class="footer-text one">
                                     <h3>CONTACT US</h3>
                                     <ul>
-                                        <li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL 2147, USA</a></li>
-                                        <li><a href="#"><i class="material-icons">email</i>dartthemes@gmail.com</a></li>
-                                        <li><a href="#"><i class="material-icons">call</i>+123456789</a></li>
+                                        <li><a href="#"><i class="material-icons">location_on</i>Based in Malaysia</a></li>
+                                        <li><a href="#"><i class="material-icons">email</i>1Volunteer@gmail.com</a></li>
+                                        <li><a href="#"><i class="material-icons">call</i>011-82789278</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -178,7 +140,7 @@
                 </div>
             </div>
             <div class="footer_bottom">
-                <p>Copyright @ 2017 <a href="#">DartThemes</a> | All Rights Reserved </p>
+                <p>Copyright @ 2022 <a href="#">1Volunteer</a> | All Rights Reserved </p>
             </div>
         </footer>
     </div>
