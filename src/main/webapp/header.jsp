@@ -29,7 +29,7 @@
                   </li>
   
                   <li class="nav-item">
-                    <a class="page-scroll" href="#clients">Events</a>
+                    <a class="page-scroll" href="clientEvent.jsp">Events</a>
                   </li>
                   <li class="nav-item">
                     <a class="page-scroll" href="#about">Forums</a>
