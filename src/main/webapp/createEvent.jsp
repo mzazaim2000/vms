@@ -61,11 +61,11 @@
             </li>
 
             <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
-              <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle ml-2" src="images/user2.png" alt="Profile image"> <span class="font-weight-normal">Admin</span></a>
+              <a class="nav-link dropdown-toggle" id="UserDropdown" href="login.jsp" data-toggle="dropdown" aria-expanded="false">
+                <img class="img-xs rounded-circle ml-2" src="images/user2.png" alt="Profile image"> <span class="font-weight-normal">Log Out</span></a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
 
-                <a href="loginAdmin" class="dropdown-item"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
+                <a href="login.jsp" class="dropdown-item"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
               </div>
             </li>
           </ul>
@@ -77,36 +77,42 @@
       <!-- partial -->
       <div class="container-fluid page-body-wrapper">
         <!-- partial:partials/_sidebar.html -->
-        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+ <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
 
 
             <li class="nav-item">
-              <a class="nav-link" href="admindashboard">
+              <a class="nav-link" href="#">
                 <span class="menu-title">Dashboard</span>
                 <i class="icon-screen-desktop menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="adminAllServices" aria-expanded="false" aria-controls="ui-basic">
+              <a class="nav-link" href="#" aria-expanded="false" aria-controls="ui-basic">
                 <span class="menu-title">Volunteer List</span>
                 <i class="icon-wrench menu-icon"></i>
               </a>
             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="manageDonation.jsp" aria-expanded="false" aria-controls="ui-basic">
+                <span class="menu-title">Manage Donation</span>
+                <i class="icon-wrench menu-icon"></i>
+              </a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="adminClient">
+              <a class="nav-link" href="createEvent.jsp">
                 <span class="menu-title">Create Events</span>
                 <i class="icon-people menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="invoice">
+              <a class="nav-link" href="editEvent.jsp">
                 <span class="menu-title">Edit Events</span>
                 <i class="icon-book-open menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="invoice">
+              <a class="nav-link" href="#">
                 <span class="menu-title">Event History</span>
                 <i class="icon-book-open menu-icon"></i>
               </a>
@@ -121,64 +127,34 @@
               </div>
             </div>
             
-        <div class="container">
-           <div class="d-flex bd-highlight mb-3">
-           <div class="me-auto p-2 bd-highlight"><h2>Create Events</h2></div>
-        </div>
+            <div class="container">
+            <div class="d-flex bd-highlight mb-3">
+            <div class="me-auto p-2 bd-highlight"><h2>Event management</div>
+            </div>
         
         <div class="form-body">
         <div class="row">
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Request Service</h3>
-                        <p>Enter your details & we will be ready to provide solution instantly.</p>
-
+                        <h3>Create Event</h3>
                         <form action="{{route("insert")}}" method="POST">
+                        
+                        	<br>Event name:
                             <div class="col-md-12">
-                               <input class="form-control" type="text" name="name" placeholder="Name" required>
-                               <div class="valid-feedback">Name field is valid!</div>
-                               <div class="invalid-feedback">Name field cannot be blank!</div>
-                            </div>
+                        		<input class="form-control" type="text" name="name" placeholder="Event Name" required>
+                               <div class="valid-feedback">Event Name field is valid!</div>
+                               <div class="invalid-feedback">Event Name field cannot be blank!</div>
+                       		</div>
 
-                            <div class="col-md-12">
-                              <input class="form-control" type="text" name="phone" placeholder="Phone Number" required>
-                               <div class="valid-feedback">Phone no. field is valid!</div>
-                               <div class="invalid-feedback">Phone no. field cannot be blank!</div>
+							<br>Venue name:
+                            <br><div class="col-md-12">
+                              <input class="form-control" type="text" name="phone" placeholder="Venue Name" required>
+                               <div class="valid-feedback">Venue Name field is valid!</div>
+                               <div class="invalid-feedback">Venue Name field cannot be blank!</div>
                           </div>
-
-                            <div class="col-md-12">
-                                <input class="form-control" type="email" name="email" placeholder="Email" required>
-                                 <div class="valid-feedback">Email field is valid!</div>
-                                 <div class="invalid-feedback">Email field cannot be blank!</div>
-                            </div>
-
-                            <div class="col-md-12">
-                              <input class="form-control" type="text" name="company" placeholder="Company" required>
-                               <div class="invalid-feedback">Company name field cannot be blank!</div>
-                          </div>
-
-                          <br>
-                          Services:
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="services[]" value="UPS" id="invalidCheck">
-                          <label class="form-check-label">Uninterruptible Power Supply Precision Cooling Solution</label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" name="services[]" value="Facility Management" id="invalidCheck">
-                          <label class="form-check-label">Facility Management M&E Maintenance</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="services[]" value="Data Center Enhancement" id="invalidCheck">
-                        <label class="form-check-label">Data Center Enhancement ICT Managed Services</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="services[]" value="Corporate Support" id="invalidCheck">
-                      <label class="form-check-label">Corporate Support Business Advisory</label>
-                  </div>
-
-                  <br>
                   
+                  <br>
                   Select Date & Time:
                   <div class="col-md-12">
                     <div class="input-group">
@@ -189,7 +165,8 @@
                     <br>
 
                         <div class="col-md-12">
-                            <textarea class="form-control" type="text" name="issue" placeholder="State your issue" required></textarea>
+                        <label for="name">Event Description</label>
+                            <textarea class="form-control" type="text" name="issue" placeholder="Event Description" required></textarea>
                              <div class="invalid-feedback">Issue field cannot be blank!</div>
                         </div>
                   
@@ -209,7 +186,7 @@
   <!-- partial:partials/_footer.html -->
   <footer class="footer">
     <div class="d-sm-flex justify-content-center justify-content-sm-between">
-      <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 1Volunteer</span>
+      <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright Â© 1Volunteer</span>
     </div>
   </footer>
   <!-- partial -->
@@ -240,8 +217,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-        
-
-    

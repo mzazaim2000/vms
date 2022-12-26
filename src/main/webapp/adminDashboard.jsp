@@ -60,11 +60,11 @@
             </li>
 
             <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
-              <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle ml-2" src="images/user2.png" alt="Profile image"> <span class="font-weight-normal">Admin</span></a>
+              <a class="nav-link dropdown-toggle" id="UserDropdown" href="login.jsp" data-toggle="dropdown" aria-expanded="false">
+                <img class="img-xs rounded-circle ml-2" src="images/user2.png" alt="Profile image"> <span class="font-weight-normal">Log Out</span></a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
 
-                <a href="loginAdmin" class="dropdown-item"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
+                <a href="login.jsp" class="dropdown-item"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
               </div>
             </li>
           </ul>
@@ -81,13 +81,13 @@
 
 
             <li class="nav-item">
-              <a class="nav-link" href="admindashboard">
+              <a class="nav-link" href="#">
                 <span class="menu-title">Dashboard</span>
                 <i class="icon-screen-desktop menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="adminAllServices" aria-expanded="false" aria-controls="ui-basic">
+              <a class="nav-link" href="#" aria-expanded="false" aria-controls="ui-basic">
                 <span class="menu-title">Volunteer List</span>
                 <i class="icon-wrench menu-icon"></i>
               </a>
@@ -99,19 +99,19 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="adminClient">
+              <a class="nav-link" href="createEvent.jsp">
                 <span class="menu-title">Create Events</span>
                 <i class="icon-people menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="invoice">
+              <a class="nav-link" href="editEvent.jsp">
                 <span class="menu-title">Edit Events</span>
                 <i class="icon-book-open menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="invoice">
+              <a class="nav-link" href="">
                 <span class="menu-title">Event History</span>
                 <i class="icon-book-open menu-icon"></i>
               </a>

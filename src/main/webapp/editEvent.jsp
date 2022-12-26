@@ -361,48 +361,48 @@ $(document).ready(function(){
 
             <div class="container">
                  <div class="d-flex bd-highlight mb-3">
-            <div class="me-auto p-2 bd-highlight"><h2>Manage Donations</div>
+            <div class="me-auto p-2 bd-highlight"><h2>List of Events</div>
             </div>
       
       	<table class="table table-striped table-hover">
 				<thead>
 					<tr>
-						<th>Name</th>
-						<th>Email</th>
-						<th>Phone Number</th>
-						<th>Donation</th>
+						<th>Event Name</th>
+						<th>Venue Name</th>
+						<th>Date & Time</th>
+						<th>Description</th>
 						<th>Actions</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>Thomas Hardy</td>
-						<td>thomashardy@mail.com</td>
-						<td>0133745901</td>
-						<td>RM2201.00</td>
+						<td>Flood in Kelantan</td>
+						<td>Kota Bharu</td>
+						<td>12/12/2022 13:00</td>
+						<td>Kelantan community needs your help for crisis management.</td>
 						<td>
 							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#printEmployeeModal" class="print" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Print">print</i></a>
+							<a href="#printEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">delete</i></a>
 						</td>
 					</tr>
 					<tr>
-						<td>Dominique Perrier</td>
-						<td>dominiqueperrier@mail.com</td>
-						<td>0126278028</td>
-						<td>RM250.00</td>
+						<td>Landslide in Kundasang</td>
+						<td>Ranau</td>
+						<td>21/12/2022 10:00</td>
+						<td>Ranau community needs your help for crisis management.</td>
 						<td>
 							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#printEmployeeModal" class="print" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Print">print</i></a>
+							<a href="#printEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">delete</i></a>
 						</td>
 					</tr>
 					<tr>
-						<td>Maria Anders</td>
-						<td>mariaanders@mail.com</td>
-						<td>0179843951</td>
-						<td>RM1372.90</td>
+						<td>Flood Awareness</td>
+						<td>Terengganu</td>
+						<td>23/12/2022 11:00</td>
+						<td>Being prepared when a flood or other natural disaster occurs.</td>
 						<td>
 							<a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-							<a href="#printEmployeeModal" class="print" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Print">print</i></a>
+							<a href="#printEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">delete</i></a>
 						</td>
 					</tr>
   				</tbody>
