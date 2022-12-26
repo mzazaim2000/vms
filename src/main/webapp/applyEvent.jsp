@@ -54,58 +54,8 @@
             </section>
         </header>
 
-        <section class="events_section_area">
-            <h2>EVENTS</h2>
-            <p>These are the list of event that you can apply. <br> Please do not hesitate to contact us regarding the events. </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="images/kelantan.jpeg" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>Kota Bharu, Kelantan</span></p>
-                            <div class="clear"></div>
-                            <h3>Flood in Kota Bharu</h3>
-                            <h6>Kelantan community needs your help for crisis management from 3 days of non-stop flooding.</h6>
-                        </div>
-                        <a href="applyEvent" target="_blank">
-               <button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-                <span>
-                  Apply
-                </span>
-                </button>
-				</a>
 
-              
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="images/kundasang.jpeg" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>Ranau, Sabah</span></p>
-                            <h3>Landslide in Kundasang</h3>
-                            <h6>Ranau community needs your help for crisis management.</h6>
-                        </div>
-						<button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-		                <span>
-		                  Apply
-		                </span>
-		              </button>
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="images/awareness.png" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>Terengganu</span></p>
-                            <h3>Flood Awareness</h3>
-                            <h6>Being prepared when a flood or other natural disaster occurs, can make a difference?</h6>
-                        </div>
-                		<button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-		                <span>
-		                  Apply
-		                </span>
-		              </button>
-                    </div>
-                </div>
-            </div>
-        </section><br><br>
+<br><br>
 
 
 
