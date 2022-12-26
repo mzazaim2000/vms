@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/login.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	
-<title>VMS</title>
+<title>1Volunteer</title>
 </head>
 <body>
 		<div class="main">
@@ -59,8 +59,6 @@
 				</div>
 			</div>
 		</section>
-
-	</div>
-	
+	</div>	
 </body>
 </html>
