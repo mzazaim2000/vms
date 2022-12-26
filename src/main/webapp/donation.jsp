@@ -12,7 +12,13 @@
 	href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
 <!-- Main css -->
-<link rel="stylesheet" href="css/donation.css">
+	<link rel="stylesheet" href="css/donation.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 
 <!-- JavaScript -->
 <script src="script/search.js"></script>

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,8 +16,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
                         <div class="col-md-5 col-sm-12 col-xs-12">
                             <a href="#">
                                 <div class="main-logo">
-                                    <img src="img/main-logo.png" alt="">
+                                    <img src="images/logo.png" alt="">
                                     <h2>HELP CHARITY</h2>
                                 </div>
                             </a>
@@ -178,7 +179,7 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
-                            <img src="img/events_single_one.jpg" alt="">
+                            <img src="images/events_single_one.jpg" alt="">
                             <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>California Street</span></p>
                             <div class="clear"></div>
                             <h3>Education For Children</h3>
@@ -187,7 +188,7 @@
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
-                            <img src="img/events_single_two.jpg" alt="">
+                            <img src="images/events_single_two.jpg" alt="">
                             <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>California Street</span></p>
                             <h3>Education For Children</h3>
                             <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
@@ -195,7 +196,7 @@
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="events_single">
-                            <img src="img/events_single_three.jpg" alt="">
+                            <img src="images/events_single_three.jpg" alt="">
                             <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>California Street</span></p>
                             <h3>Education For Children</h3>
                             <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
@@ -248,7 +249,7 @@
                     <div class="col-md-12">
                         <div class="our_cuauses_single owl-carousel owl-theme">
                             <div class="item">
-                                <img src="img/our_cuauses_one.jpg" alt="">
+                                <img src="images/our_cuauses_one.jpg" alt="">
                                 <div class="for_padding">
                                     <h2>FUTURES FOR CHILDREN</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima</p>
@@ -264,7 +265,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/our_cuauses_two.jpg" alt="">
+                                <img src="images/our_cuauses_two.jpg" alt="">
                                 <div class="for_padding">
                                     <h2>FUTURES FOR CHILDREN</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima</p>
@@ -280,7 +281,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/our_cuauses_three.jpg" alt="">
+                                <img src="images/our_cuauses_three.jpg" alt="">
                                 <div class="for_padding">
                                     <h2>FUTURES FOR CHILDREN</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima</p>
@@ -296,7 +297,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/our_cuauses_three.jpg" alt="">
+                                <img src="images/our_cuauses_three.jpg" alt="">
                                 <div class="for_padding">
                                     <h2>FUTURES FOR CHILDREN</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima</p>
@@ -316,6 +317,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="donors">
             <div class="container">
                 <div class="row">
@@ -352,22 +354,22 @@
                             <h2>FEATURED DONORS</h2>
                             <div class="donors_featured owl-carousel owl-theme">
                                 <div class="item">
-                                    <img src="img/donors_featured_one.jpg" alt="">
+                                    <img src="images/donors_featured_one.jpg" alt="">
                                     <h3>Kenneth J. Garnica</h3>
                                     <p>Donated Amount : <span>220 USD</span> </p>
                                 </div>
                                 <div class="item">
-                                    <img src="img/donors_featured_one.jpg" alt="">
+                                    <img src="images/donors_featured_one.jpg" alt="">
                                     <h3>Kenneth J. Garnica</h3>
                                     <p>Donated Amount : <span>220 USD</span> </p>
                                 </div>
                                 <div class="item">
-                                    <img src="img/donors_featured_one.jpg" alt="">
+                                    <img src="images/donors_featured_one.jpg" alt="">
                                     <h3>Kenneth J. Garnica</h3>
                                     <p>Donated Amount : <span>220 USD</span> </p>
                                 </div>
                                 <div class="item">
-                                    <img src="img/donors_featured_one.jpg" alt="">
+                                    <img src="images/donors_featured_one.jpg" alt="">
                                     <h3>Kenneth J. Garnica</h3>
                                     <p>Donated Amount : <span>220 USD</span> </p>
                                 </div>
@@ -386,7 +388,7 @@
                     <div class="col-md-12">
                         <div class="volunteer_single owl-carousel owl-theme">
                             <div class="item">
-                                <img src="img/volanteer_1.jpg" alt="">
+                                <img src="images/volanteer_1.jpg" alt="">
                                 <div class="text">
                                     <h3>Laura Jammy</h3>
                                     <h6>Designer</h6>
@@ -395,7 +397,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_2.jpg" alt="">
+                                <img src="images/volanteer_2.jpg" alt="">
                                 <div class="text">
                                     <h3>Albert R. Ardoin</h3>
                                     <h6>Actor</h6>
@@ -404,7 +406,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_3.jpg" alt="">
+                                <img src="images/volanteer_3.jpg" alt="">
                                 <div class="text">
                                     <h3>Cynthia Anni</h3>
                                     <h6>Singer</h6>
@@ -413,7 +415,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_1.jpg" alt="">
+                                <img src="images/volanteer_1.jpg" alt="">
                                 <div class="text">
                                     <h3>Laura Jammy</h3>
                                     <h6>Designer</h6>
@@ -422,7 +424,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_2.jpg" alt="">
+                                <img src="images/volanteer_2.jpg" alt="">
                                 <div class="text">
                                     <h3>Albert R. Ardoin</h3>
                                     <h6>Actor</h6>
@@ -431,7 +433,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_3.jpg" alt="">
+                                <img src="images/volanteer_3.jpg" alt="">
                                 <div class="text">
                                     <h3>Cynthia Anni</h3>
                                     <h6>Singer</h6>
@@ -458,14 +460,14 @@
                                 <h6>Designer</h6>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_2.jpg" alt="">
+                                <img src="images/volanteer_2.jpg" alt="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                                 <h5><i class="material-icons">format_quote</i></h5>
                                 <h4>Florence M. Cofer</h4>
                                 <h6>Designer</h6>
                             </div>
                             <div class="item">
-                                <img src="img/volanteer_3.jpg" alt="">
+                                <img src="images/volanteer_3.jpg" alt="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                                 <h5><i class="material-icons">format_quote</i></h5>
                                 <h4>Florence M. Cofer</h4>
@@ -483,7 +485,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="single_news">
-                            <img src="img/news_images_1.jpg" alt="">
+                            <img src="images/news_images_1.jpg" alt="">
                             <div class="texts">
                                 <p class="date"><a href="#">30 May, 2017</a></p>
                                 <h3>Wood Work Adds Value To <br> Your Property Five</h3>
@@ -494,7 +496,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="single_news">
-                            <img src="img/news_images_2.jpg" alt="">
+                            <img src="images/news_images_2.jpg" alt="">
                             <div class="texts">
                                 <p class="date"><a href="#">30 May, 2017</a></p>
                                 <h3>Wood Work Adds Value To <br> Your Property Five</h3>
@@ -505,7 +507,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="single_news">
-                            <img src="img/news_images_3.jpg" alt="">
+                            <img src="images/news_images_3.jpg" alt="">
                             <div class="texts">
                                 <p class="date"><a href="#">30 May, 2017</a></p>
                                 <h3>Wood Work Adds Value To <br> Your Property Five</h3>
@@ -524,19 +526,19 @@
                     <div class="col-md-12">
                         <div class="footer_carosal_icon owl-carousel owl-theme">
                             <div class="item">
-                                <img src="img/microsoft.png" alt="">
+                                <img src="images/microsoft.png" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/envato.png" alt="">
+                                <img src="images/envato.png" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/yahoo.png" alt="">
+                                <img src="images/yahoo.png" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/jquery.png" alt="">
+                                <img src="images/jquery.png" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/amazon.png" alt="">
+                                <img src="images/amazon.png" alt="">
                             </div>
                         </div>
                     </div>
