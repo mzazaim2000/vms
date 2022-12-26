@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Front page</title>
+    <title>1Volunteer</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
@@ -23,22 +23,6 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <section class="header-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="contact">
-                                <p><span class="phone"><a href="#">Phone: +1023546789</a></span><span class="email"><a href="#">Email: testdomain@gmail.com</a></span></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="join-us">
-                                <p><a href="#">JOIN US NOW</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="header-bottom">
                 <div class="container">
                     <div class="row">
@@ -46,20 +30,18 @@
                             <a href="#">
                                 <div class="main-logo">
                                     <img src="images/logo.png" alt="">
-                                    <h2>HELP CHARITY</h2>
+                                  
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-7 col-sm-12 col-xs-12">
                             <div class="menu">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">HOME</a></li>
-                                    <li><a href="#">ABOUT US</a></li>
-                                    <li><a href="#">CAUSES</a></li>
-                                    <li><a href="#">EVENT</a></li>
-                                    <li><a href="#">PORTFOLIO </a></li>
-                                    <li><a href="#">BLOG</a></li>
-                                    <li><a href="#">CONTACT</a></li>
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">Donations</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Forums </a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -67,181 +49,59 @@
                 </div>
             </section>
         </header>
-        <section class="carosal-area">
+               <section class="letast_news">
+            <h2>Donate Now!</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="client owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                                    <h5 class="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="images/flood.png" alt="">
+                            <div class="texts">
+                                <p>26 December, 2022</p>
+                                <h4>Flood in Kedah <br></h4>
+                                <p class="test">Kedah community needs your help for crisis management from 3 days of non-stop flooding. </p>
+                                <section class="donate_section">
+                        		<h2><a href="#">Donate Now</a></h2>
+        						</section>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="our_activity">
-            <h2>OUR ACTIVITY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                        <div class="single-Promo">
-                            <div class="promo-icon">
-                                <i class="material-icons">near_me</i>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="images/hurricane.png" alt="">
+                            <div class="texts">
+                                <p>27 November, 2022</p>
+                                <h4>Melaka Hurricane</h4>
+                                <p class="test">The hurricane just hit Melaka and all the people have lost their home and resources.</p>
+                                
+                                <section class="donate_section">
+                        		<h2><a href="donation2.jsp">Donate Now</a></h2>
+        						</section>
                             </div>
-                            <h2><a href="#">Fundraising</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="single-Promo">
-                            <div class="promo-icon">
-                                <i class="material-icons">favorite</i>
-                            </div>
-                            <h2><a href="#">Volunteering</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="single-Promo">
-                            <div class="promo-icon">
-                                <i class="material-icons">dashboard</i>
-                            </div>
-                            <h2><a href="#">Our Programs</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="donate_section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 for-padding">
-                        <h4>URGENT CAUSE</h4>
-                        <h3>Recent Environmental Disasters</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <div class="progress-text">
-                            <p class="progress-top">50%</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
-                            </div>
-                            <p class="progress-left">Raised: $1200</p>
-                            <p class="progress-right">Goal: $2400</p>
-                        </div>
-                        <h2><a href="#">DONATE NOW</a></h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="events_section_area">
-            <h2>UPCOMING EVENTS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="images/events_single_one.jpg" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>California Street</span></p>
-                            <div class="clear"></div>
-                            <h3>Education For Children</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="images/events_single_two.jpg" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>California Street</span></p>
-                            <h3>Education For Children</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="events_single">
-                            <img src="images/events_single_three.jpg" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span class="event_right"><i class="material-icons">location_on</i>California Street</span></p>
-                            <h3>Education For Children</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="images/landslide.jpeg" alt="">
+                            <div class="texts">
+                                <p>30 October, 2022</a></p>
+                                <h4>Landslide at Genting Highland<br></h4>
+                                <p class="test">A landslide has shaken Genting Highland, help them recover with food and medicine.</p>
 
-
-        <div class="block-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
-                        <div class="block">
-                            <p><i class="material-icons">favorite</i></p>
-                            <p class="counter-wrapper"><span class="fb"></span></p>
-                            <p class="text-block">CAUSES</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
-                        <div class="block">
-                            <p><i class="material-icons">language</i></p>
-                            <p class="counter-wrapper"><span class="code"></span></p>
-                            <p class="text-block">PLACES</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
-                        <div class="block">
-                            <p><i class="material-icons">person_add</i></p>
-                            <p class="counter-wrapper"><span class="bike"></span></p>
-                            <p class="text-block">VOLUNTEERS</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6 for-border">
-                        <div class="block">
-                            <p><i class="material-icons">people</i></p>
-                            <p class="counter-wrapper"><span class="coffee"></span></p>
-                            <p class="text-block">SAVED</p>
+                                <section class="donate_section">
+                        		<h2><a href="#">Donate Now</a></h2>
+        						</section>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <section class="our_cuauses">
+        </section>
+        
+       
+  
+
+        <section class="our_causes">
             <h2>OUR CAUSES</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
             <div class="container">
@@ -379,73 +239,8 @@
                 </div>
             </div>
         </section>
-        <div class="clear"></div>
-        <section class="volunteer_area">
-            <h2>Our Volunteer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="volunteer_single owl-carousel owl-theme">
-                            <div class="item">
-                                <img src="images/volanteer_1.jpg" alt="">
-                                <div class="text">
-                                    <h3>Laura Jammy</h3>
-                                    <h6>Designer</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
-                                    <h5><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/volanteer_2.jpg" alt="">
-                                <div class="text">
-                                    <h3>Albert R. Ardoin</h3>
-                                    <h6>Actor</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
-                                    <h5><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/volanteer_3.jpg" alt="">
-                                <div class="text">
-                                    <h3>Cynthia Anni</h3>
-                                    <h6>Singer</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
-                                    <h5><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/volanteer_1.jpg" alt="">
-                                <div class="text">
-                                    <h3>Laura Jammy</h3>
-                                    <h6>Designer</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
-                                    <h5><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/volanteer_2.jpg" alt="">
-                                <div class="text">
-                                    <h3>Albert R. Ardoin</h3>
-                                    <h6>Actor</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
-                                    <h5><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></h5>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/volanteer_3.jpg" alt="">
-                                <div class="text">
-                                    <h3>Cynthia Anni</h3>
-                                    <h6>Singer</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
-                                    <h5><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
+        
 
         <section class="carosal_bottom">
             <div class="container">
@@ -478,48 +273,7 @@
                 </div>
             </div>
         </section>
-        <section class="letast_news">
-            <h2>latest news</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single_news">
-                            <img src="images/news_images_1.jpg" alt="">
-                            <div class="texts">
-                                <p class="date"><a href="#">30 May, 2017</a></p>
-                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
-                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <h3><a href="#">READ MORE</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single_news">
-                            <img src="images/news_images_2.jpg" alt="">
-                            <div class="texts">
-                                <p class="date"><a href="#">30 May, 2017</a></p>
-                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
-                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <h3><a href="#">READ MORE</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single_news">
-                            <img src="images/news_images_3.jpg" alt="">
-                            <div class="texts">
-                                <p class="date"><a href="#">30 May, 2017</a></p>
-                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
-                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <h3><a href="#">READ MORE</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+       
         <section class="footer_carosal">
             <div class="container">
                 <div class="row">

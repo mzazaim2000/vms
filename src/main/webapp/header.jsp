@@ -25,7 +25,7 @@
                     <a class="page-scroll" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="page-scroll" href="donation.jsp">Donation</a>
+                    <a class="page-scroll" href="donate.jsp">Donation</a>
                   </li>
   
                   <li class="nav-item">
