@@ -122,16 +122,15 @@
 
             <div class="container">
                  <div class="d-flex bd-highlight mb-3">
-            <div class="me-auto p-2 bd-highlight"><h2>Report</div>
+            <div class="me-auto p-2 bd-highlight"><h2>Volunteer</div>
             </div>
       
       <table class="table table-striped table-hover">
         <thead>
           <tr>
-            <th>Event</th>
-            <th>Person in charge</th>
-            <th>Total volunteers</th>
-            <th>Date</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone number</th>
             <th>Action</th>
           </tr>
         </thead>
