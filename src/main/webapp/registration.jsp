@@ -78,13 +78,13 @@
                 type="password"
                 placeholder="Password"
               required/>
-              <button
-                class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
-              >
+                        <a href="login.jsp" target="_blank">
+               <button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                 <span>
                   Sign Up
                 </span>
-              </button>
+                </button>
+				</a>
             </div>
           </div>
         </div>

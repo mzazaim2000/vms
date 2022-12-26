@@ -39,7 +39,7 @@
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="#">Home</a></li>
                                     <li><a href="#">Donations</a></li>
-                                    <li><a href="#">Events</a></li>
+                                    <li><a href="clientEvent.jsp">Events</a></li>
                                     <li><a href="#">Forums </a></li>
                                     <li><a href="#">Contact Us</a></li>
                                 </ul>
