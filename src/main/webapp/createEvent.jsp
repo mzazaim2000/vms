@@ -22,6 +22,7 @@
     <!-- endinject -->
     <!-- Layout styles -->
     <link rel="stylesheet" href="css/adminDashboard.css">
+    <link rel="stylesheet" href="css/form.css">
     <link href="/frontend/css/index.css" rel="stylesheet">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="/images/logo.png" />
@@ -119,25 +120,91 @@
               <div class="col-12 stretch-card grid-margin">
               </div>
             </div>
+            
+        <div class="container">
+           <div class="d-flex bd-highlight mb-3">
+           <div class="me-auto p-2 bd-highlight"><h2>Create Events</h2></div>
+        </div>
+        
+        <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Request Service</h3>
+                        <p>Enter your details & we will be ready to provide solution instantly.</p>
 
-            <div class="container">
-                 <div class="d-flex bd-highlight mb-3">
-            <div class="me-auto p-2 bd-highlight"><h2>Report</div>
+                        <form action="{{route("insert")}}" method="POST">
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="name" placeholder="Name" required>
+                               <div class="valid-feedback">Name field is valid!</div>
+                               <div class="invalid-feedback">Name field cannot be blank!</div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <input class="form-control" type="text" name="phone" placeholder="Phone Number" required>
+                               <div class="valid-feedback">Phone no. field is valid!</div>
+                               <div class="invalid-feedback">Phone no. field cannot be blank!</div>
+                          </div>
+
+                            <div class="col-md-12">
+                                <input class="form-control" type="email" name="email" placeholder="Email" required>
+                                 <div class="valid-feedback">Email field is valid!</div>
+                                 <div class="invalid-feedback">Email field cannot be blank!</div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <input class="form-control" type="text" name="company" placeholder="Company" required>
+                               <div class="invalid-feedback">Company name field cannot be blank!</div>
+                          </div>
+
+                          <br>
+                          Services:
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="services[]" value="UPS" id="invalidCheck">
+                          <label class="form-check-label">Uninterruptible Power Supply Precision Cooling Solution</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="services[]" value="Facility Management" id="invalidCheck">
+                          <label class="form-check-label">Facility Management M&E Maintenance</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="services[]" value="Data Center Enhancement" id="invalidCheck">
+                        <label class="form-check-label">Data Center Enhancement ICT Managed Services</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="services[]" value="Corporate Support" id="invalidCheck">
+                      <label class="form-check-label">Corporate Support Business Advisory</label>
+                  </div>
+
+                  <br>
+                  
+                  Select Date & Time:
+                  <div class="col-md-12">
+                    <div class="input-group">
+                    <input class="input--style-2 js-datepicker" type="date" name="date"> <tr><tr> <input class="time" type="time" name="time">
+                    </div>
+                    </div>
+
+                    <br>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" type="text" name="issue" placeholder="State your issue" required></textarea>
+                             <div class="invalid-feedback">Issue field cannot be blank!</div>
+                        </div>
+                  
+                       <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                  
+
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-      
-      <table class="table table-striped table-hover">
-        <thead>
-          <tr>
-            <th>Event</th>
-            <th>Person in charge</th>
-            <th>Total volunteers</th>
-            <th>Date</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-      </table>
-    </div>
-  </div>
+        </div>
+     </div>
   <!-- content-wrapper ends -->
   <!-- partial:partials/_footer.html -->
   <footer class="footer">
