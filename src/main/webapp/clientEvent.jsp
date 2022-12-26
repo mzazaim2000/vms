@@ -78,7 +78,7 @@
                             <h3>Flood in Kota Bharu</h3>
                             <h6>Kelantan community needs your help for crisis management from 3 days of non-stop flooding.</h6>
                         </div>
-               <a href="applyEvent" target="_blank">
+               <a href="applyEvent.jsp" target="_blank">
                <button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                 <span>
                   Apply
@@ -93,7 +93,7 @@
                             <h3>Landslide in Kundasang</h3>
                             <h6>Ranau community needs your help for crisis management.</h6>
                         </div>
-                <a href="applyEvent" target="_blank">
+                <a href="applyEvent.jsp" target="_blank">
                <button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                 <span>
                   Apply
@@ -108,7 +108,7 @@
                             <h3>Flood Awareness</h3>
                             <h6>Being prepared when a flood or other natural disaster occurs, can make a difference?</h6>
                         </div>
-                <a href="applyEvent" target="_blank">
+                <a href="applyEvent.jsp" target="_blank">
                <button class="mt-5 tracking-wide font-semibold bg-green-500 text-blue-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                 <span>
                   Apply
