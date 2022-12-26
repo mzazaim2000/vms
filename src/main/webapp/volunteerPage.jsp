@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1" import="com.model.User" %>
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,9 +18,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/donation2.css">
-
 </head>
+
 <body>
+
  <div class="wrapper">
         <header class="header">
             <section class="header-bottom">
@@ -52,6 +54,8 @@
 
 <h2>Welcome to</h2> 
 <h2>Volunteer Management System</h2>
+=======
+>>>>>>> refs/remotes/origin/master
 
 </body>
 </html>
