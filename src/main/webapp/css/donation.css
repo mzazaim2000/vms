@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align:center;
+}
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 150vh;
+  line-height: 2;
+}
+
+.container {
+  width: 450px;
+  height: auto;
+  background-color: #F3F8F7;
+/*   margin: 20vh auto; */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4rem;
+  padding: 10px;
+}
+
+.search__box {
+  float: left;
+  width: 0;
+  height: 1.5rem;
+/*   display: inline; */
+  background: none;
+  color: #000000;
+  font-size: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  position: relative;
+  opacity: 1;
+  transition: all .75s ease-in;
+  cursor: pointer;
+/*   border: 2px solid tomato; */
+/*   margin-top: 5px; */
+}
+
+
+.search__icon {
+  box-sizing: border-box;
+  
+  font-size: .8rem;
+  display: inline-block;
+/*   justify-content: center;
+  align-items: center; */
+  margin-left: .5rem;
+  margin-top: 0;
+  cursor: pointer;
+  position: absolute;
+  color: #000000;
+  transition: all .25s ease-in;
+  padding: .5rem;
+  border-radius: 50%;
+}
+
+.container:hover > .search__box {
+  width: 90%;
+  padding: 0 1rem;
+}
+
+.container:hover > .search__icon {
+  background-color: #eee;
+}
+
+.show {
+  width: 85%;
+  
+}
+
+.container2{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background:#fff;
+  font-family: "Poppins";
+	
+}
