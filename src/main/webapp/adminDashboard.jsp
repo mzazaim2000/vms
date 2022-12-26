@@ -92,6 +92,12 @@
                 <i class="icon-wrench menu-icon"></i>
               </a>
             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="manageDonation.jsp" aria-expanded="false" aria-controls="ui-basic">
+                <span class="menu-title">Manage Donation</span>
+                <i class="icon-wrench menu-icon"></i>
+              </a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="adminClient">
                 <span class="menu-title">Create Events</span>
