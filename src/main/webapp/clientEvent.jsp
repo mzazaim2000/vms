@@ -21,7 +21,7 @@
 <!-- JavaScript -->
 <script src="script/search.js"></script>
 
-<title>VMS</title>
+<title>1Volunteer</title>
 </head>
 <body>
 

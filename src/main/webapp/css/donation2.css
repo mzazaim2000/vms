@@ -16,10 +16,17 @@ p{
   padding-left: 120px;
 }
 
-.right{
-
+span.event_left {
+    left: 0;
+    position: absolute;
+    padding-left: 20px;
 }
 
+span.event_right {
+    position: absolute;
+    right: 0;
+    padding-left: 20px;
+}
 .container{
   font-family: 'Poppins';
   font-style: normal;

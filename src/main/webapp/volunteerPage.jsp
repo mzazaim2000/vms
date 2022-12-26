@@ -54,8 +54,7 @@
 
 <h2>Welcome to</h2> 
 <h2>Volunteer Management System</h2>
-=======
->>>>>>> refs/remotes/origin/master
+
 
 </body>
 </html>
